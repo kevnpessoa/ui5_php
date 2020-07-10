@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6b63227-561a-4e60-903f-eb5f6440602f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1eJlmRgASkbqoawPjgypoX3olbb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp/view/pessoa" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/view/pessoa" />
+      <recent name="$PROJECT_DIR$/webapp/controller/pessoa" />
+      <recent name="$PROJECT_DIR$/webapp/view" />
+      <recent name="$PROJECT_DIR$/webapp/controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp/view/pessoa" />
+      <recent name="$PROJECT_DIR$/webapp/entities" />
+      <recent name="$PROJECT_DIR$/webapp/" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6b63227-561a-4e60-903f-eb5f6440602f" name="Default Changelist" comment="" />
+      <created>1594047734843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594047734843</updated>
+      <workItem from="1594047739626" duration="10639000" />
+      <workItem from="1594065606826" duration="10930000" />
+      <workItem from="1594129383851" duration="22569000" />
+      <workItem from="1594245858281" duration="3529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="138" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594155614632">
+      <screen x="0" y="0" width="1360" height="736" />
+    </state>
+    <state x="138" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.736@0.0.1360.736" timestamp="1594155614632" />
+    <state x="463" y="126" width="428" height="486" key="FileChooserDialogImpl" timestamp="1594068676710">
+      <screen x="0" y="0" width="1360" height="736" />
+    </state>
+    <state x="463" y="126" width="428" height="486" key="FileChooserDialogImpl/0.0.1360.736@0.0.1360.736" timestamp="1594068676710" />
+    <state x="282" y="171" width="790" height="395" key="RefactorX.WrapTag" timestamp="1594047893242">
+      <screen x="0" y="0" width="1360" height="736" />
+    </state>
+    <state x="282" y="171" width="790" height="395" key="RefactorX.WrapTag/0.0.1360.736@0.0.1360.736" timestamp="1594047893242" />
+  </component>
+</project>
