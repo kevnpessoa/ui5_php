@@ -1,0 +1,15 @@
+<mvc:View controllerName="softpro.portal.controller.Home"
+          xmlns="sap.m"
+          xmlns:l="sap.ui.layout"
+          xmlns:core="sap.ui.core"
+          xmlns:mvc="sap.ui.core.mvc">
+    <Page showHeader="false">
+        <landmarkInfo>
+            <PageAccessibleLandmarkInfo rootRole="Region" rootLabel="{i18n>Home_rootLabel}" contentRole="Main"
+                                        contentLabel="{i18n>Home_contentLabel}"/>
+        </landmarkInfo>
+        <l:BlockLayout id="BlockLayout" background="Default">
+
+        </l:BlockLayout>
+    </Page>
+</mvc:View>

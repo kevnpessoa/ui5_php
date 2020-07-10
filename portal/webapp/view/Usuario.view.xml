@@ -1,0 +1,51 @@
+<mvc:View controllerName="softpro.portal.controller.Usuario"
+          xmlns="sap.m"
+          xmlns:l="sap.ui.layout"
+          xmlns:core="sap.ui.core"
+          xmlns:mvc="sap.ui.core.mvc">
+
+    <Page showHeader="false">
+        <Table id="table"
+                width="auto"
+                class="sapUiResponsiveMargin"
+                growing="true"
+                items="{/user}">
+            <headerToolbar>
+                <Toolbar>
+                    <Label id="tableHeader" text="{i18n>headerUsuario}"/>
+                    <ToolbarSpacer />
+                    <SearchField id="searchField" width="auto" search=".onSearch" />
+                    <Button id="btnAddUsuario"
+                            icon="sap-icon://add"
+                            type="Transparent"
+                            press=".onPressAdd"
+                            text="{i18n>addText}"
+                            tooltip="{i18n>addTooltipText}">
+                        <layoutData>
+                            <OverflowToolbarLayoutData priority="NeverOverflow"/>
+                        </layoutData>
+                    </Button>
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column width="33%" vAlign="Middle">
+                    <Text text="{i18n>nameText}"/>
+                </Column>
+                <Column width="33%" vAlign="Middle">
+                    <Text text="{i18n>emailText}"/>
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem
+                        vAlign="Middle"
+                        type="Navigation"
+                        press=".onPressItem">
+                    <cells>
+                        <Text text="{nome}"/>
+                        <Text text="{email}"/>
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Page>
+</mvc:View>

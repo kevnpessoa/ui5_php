@@ -1,0 +1,31 @@
+{
+  "navigation": [
+    {
+      "titleI18nKey": "sideContentHome",
+      "icon": "sap-icon://home",
+      "expanded": true,
+      "key": "home",
+      "items": []
+    },
+    {
+      "titleI18nKey": "sideContentPessoa",
+      "icon": "sap-icon://family-care",
+      "expanded": true,
+      "key": "pessoa",
+      "items": []
+    },
+    {
+      "titleI18nKey": "sideContentUsuario",
+      "icon": "sap-icon://user-settings",
+      "expanded": true,
+      "key": "usuario",
+      "items": []
+    }
+  ],
+  "fixedNavigation": [
+
+  ],
+  "masterSettings": [
+
+  ]
+}

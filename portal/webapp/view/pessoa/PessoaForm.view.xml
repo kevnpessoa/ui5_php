@@ -1,0 +1,39 @@
+<mvc:View
+        controllerName="softpro.portal.controller.pessoa.PessoaForm"
+        xmlns="sap.m"
+        xmlns:form="sap.ui.layout.form"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:semantic="sap.m.semantic">
+    <semantic:FullscreenPage
+            id="page"
+            busyIndicatorDelay="0"
+            navButtonPress=".onNavBack"
+            showNavButton="true"
+            title="{i18n>createPessoa}">
+        <semantic:content>
+            <form:SimpleForm layout="ResponsiveGridLayout"
+                             editable="true"
+                             labelSpanXL="3"
+                             labelSpanL="3"
+                             labelSpanM="3"
+                             labelSpanS="12">
+                <form:content>
+                    <Label text="Nome"/>
+                    <Input id="nome" value="{/nome}"/>
+                    <Label text="E-mail"/>
+                    <Input id="email" value="{/email}"/>
+                </form:content>
+            </form:SimpleForm>
+        </semantic:content>
+        <semantic:customFooterContent>
+            <FlexBox height="100%" width="100%" alignItems="Start">
+                <Button id="btnSave" icon="sap-icon://save" press="onPressSave" type="Accept"
+                        text="{i18n>saveText}" tooltip="{i18n>saveTooltipText}"
+                        class="sapUiSmallMarginEnd" />
+
+                <Button id="btnDelete" icon="sap-icon://delete" press="onPressDelete" type="Reject"
+                        text="{i18n>deleteText}" tooltip="{i18n>deleteTooltipText}" />
+            </FlexBox>
+        </semantic:customFooterContent>
+    </semantic:FullscreenPage>
+</mvc:View>
